@@ -12,10 +12,6 @@ def main():
     print_by_merchant(purchase_dict)
 
 def read_file(file):
-    """In this exercise, write a function, passwd_to_dict, that reads from a Unix-style
-    “password file,” commonly stored as /etc/passwd, and returns a dict based on it.
-    The function passwd_to_dict should return a dict based on /etc/passwd in
-    which the dict’s keys are usernames and the values are the users’ IDs."""
     my_dict = {}
     pieces = []
     with open(file) as fileobj:
