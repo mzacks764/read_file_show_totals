@@ -31,15 +31,6 @@ def create_purchase_list(bill_dict):
         purchase_list.append(add_on)
     return(purchase_list)
 
-'''
-def create_final_dict(bill_dict,purchase_list):
-    counter = 0
-    for key in bill_dict:
-        value = purchase_list[counter]
-        bill_dict[key] = value
-        counter +=1
-    return bill_dict
-'''
 def sum_purchases(purchase_list):
     purchase_dict = {}
     for item in purchase_list:
